@@ -1,0 +1,35 @@
+body {
+  font-family: verdana;
+  margin: 0;
+  background-color: #222222;
+}
+
+h1 {
+  padding: 60px;
+  color: #A8A8A8;
+  text-align: center;
+  font-size: 16px;
+}
+
+img {
+  width: 120px;
+  height: 150px;
+  position: relative;
+  top: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: #A8A8A8;
+  font-family: verdana;
+  font-size: 16px;
+}
+
+a:link{
+  color: white;
+}
+a:visited {
+  color: white;
+}
