@@ -6,25 +6,23 @@ body {
 
 h1 {
   padding: 60px;
-  color: #A8A8A8;
+  color: #FFFFF8;
   text-align: center;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 img {
-  width: 120px;
-  height: 150px;
+  width: 200px;
+  height: auto;
   position: relative;
   top: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  left: 30%;
+  display: inline;
+  
 }
 
 p {
-  color: #A8A8A8;
-  font-family: verdana;
-  font-size: 16px;
+  
 }
 
 a:link{
@@ -32,4 +30,16 @@ a:link{
 }
 a:visited {
   color: white;
+}
+
+#text1 {
+  position: fixed;
+  width:auto;
+  height: auto;
+  top:30%;
+  right: 35%;
+  display: inline;
+  color: #A8A8A8;
+  font-family: verdana;
+  font-size: 16px;
 }
