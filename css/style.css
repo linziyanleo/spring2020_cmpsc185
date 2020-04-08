@@ -14,6 +14,7 @@ ul#menu {
   padding: 0;
   overflow: hidden;
   background-color: #2E383F;
+  z-index: 10;
 }
 
 li {
@@ -40,25 +41,23 @@ li a:hover {
 }
 
 h1 {
-  padding: 60px;
+  padding-top: 100px;
   color: #FFFFF8;
   text-align: center;
   font-size: 30px;
 }
+h2 {
+  padding: 20px;
+  color: rgba(255, 255, 248, 0.61);
+  text-align: center;
+  font-size: 15px;
+}
 
 img {
-  width: 200px;
-  height: auto;
   position: relative;
-  top: 20%;
-  left: 30%;
   display: inline;
-  
 }
 
-p {
-  
-}
 
 a:link{
   color: white;
@@ -77,4 +76,19 @@ a:visited {
   color: #A8A8A8;
   font-family: verdana;
   font-size: 16px;
+}
+
+#cat {
+  position: relative;
+  left: 30%;
+  top: 20%;
+}
+
+div.photo{  
+  width: 50%;
+  display: block;
+  text-align: center;
+  padding: 14px 5%;
+  float: left;
+  text-decoration: none;
 }
