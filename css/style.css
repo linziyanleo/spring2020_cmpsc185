@@ -53,6 +53,13 @@ h2 {
   font-size: 15px;
 }
 
+p{
+  text-align:center;
+  margin:auto;
+  /* padding: 10px 30%; */
+  color: #FFFFF8;
+}
+
 img {
   position: relative;
   display: inline;
@@ -98,6 +105,14 @@ div.video{
   display: block;
   text-align: center;
   padding: 14px 5%;
+  float: left;
+  text-decoration: none;
+}
+
+div.exlinks{  
+  display: flex;
+  text-align: center;
+  padding: 20px 10%;
   float: left;
   text-decoration: none;
 }
