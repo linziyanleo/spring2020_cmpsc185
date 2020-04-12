@@ -92,3 +92,12 @@ div.photo{
   float: left;
   text-decoration: none;
 }
+
+div.video{  
+  width: 50%;
+  display: block;
+  text-align: center;
+  padding: 14px 5%;
+  float: left;
+  text-decoration: none;
+}
