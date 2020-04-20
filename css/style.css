@@ -148,3 +148,21 @@ div.exlinks{
   max-width: 70%;
   background-color: rgb(37, 37, 37);
 }
+
+#goTop {
+  display: none;
+  cursor: pointer;
+  outline: none; 
+  background-color: white; 
+  color: black; 
+  position: fixed; 
+  bottom: 50px; 
+  right: 4%; 
+  z-index: 100; 
+  padding: 15px; 
+  font-size: calc(5px + .8vw); 
+}
+
+#goTop:hover {
+  background-color: grey; 
+}
