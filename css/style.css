@@ -127,3 +127,24 @@ div.exlinks{
   float: left;
   text-decoration: none;
 }
+
+#BlurBox {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+#BlurBox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#BlurBox img {
+  max-width: 70%;
+  background-color: rgb(37, 37, 37);
+}
