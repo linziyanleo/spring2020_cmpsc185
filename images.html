@@ -10,7 +10,10 @@
 
 		<title>Leo Lin's photos at CMPSC 185 in UCSB</title>
 		<link rel="icon" href="image/logo.png" type="image/x-icon">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> -->
+		
+		<script defer src="js/imgOverlay.js"></script>
+		<script defer src="js/goTop.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		
@@ -26,12 +29,12 @@
 			<li><a href = "videos.html">Videos</a></li>
 			<li><a href = "externallinks.html">External Links</a></li>
 		</ul>
-        <div style="clear: both"> </div>
+        <!-- <div style="clear: both"> </div> -->
 	
 			<div class = "photo">
                 <img src="image/im/1.jpg" width = "100%"/></div>
             <div class="photo">
-                <img src="image/im/2.png" width = "60%"/></div>
+                <img src="image/im/2.png" width = "100%"/></div>
             <div class="photo">
                 <img src="image/im/3.jpg" width = "100%"/></div>
             <div class="photo">
@@ -46,6 +49,8 @@
 			
 		</div>
 	</div>
+
+	<button onclick="to_topFunction()" id="goTop" title="Go top">Go top</button>
 
 	</body>
 </html>
