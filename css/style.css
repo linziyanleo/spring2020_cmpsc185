@@ -145,7 +145,8 @@ div.exlinks{
 }
 
 #BlurBox img {
-  max-width: 70%;
+  max-height: 70%;
+  width: auto;
   background-color: rgb(37, 37, 37);
 }
 
