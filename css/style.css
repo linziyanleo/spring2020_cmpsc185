@@ -35,11 +35,15 @@ li a{
 
 li a:hover {
    display: block;
-   background-color: #111;
+   background-color: rgb(24, 24, 24);
    color: white;
    font-size: calc(14px + .8vw);
    text-align: center;
    text-decoration: none;
+}
+
+.curentPage{
+  background-color: rgb(0, 0, 0);
 }
 
 h1 {
